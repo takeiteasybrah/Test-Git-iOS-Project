@@ -21,6 +21,7 @@
 		F1D0B55718EF73FA0099E8ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D0B53918EF73FA0099E8ED /* UIKit.framework */; };
 		F1D0B55F18EF73FA0099E8ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1D0B55D18EF73FA0099E8ED /* InfoPlist.strings */; };
 		F1D0B56118EF73FA0099E8ED /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D0B56018EF73FA0099E8ED /* Git_TestTests.m */; };
+		F1D0B56C18EF75F80099E8ED /* CKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D0B56B18EF75F80099E8ED /* CKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F1D0B55C18EF73FA0099E8ED /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		F1D0B55E18EF73FA0099E8ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1D0B56018EF73FA0099E8ED /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		F1D0B56A18EF75F80099E8ED /* CKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTest.h; sourceTree = "<group>"; };
+		F1D0B56B18EF75F80099E8ED /* CKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				F1D0B54B18EF73FA0099E8ED /* CKViewController.m */,
 				F1D0B54D18EF73FA0099E8ED /* Images.xcassets */,
 				F1D0B53C18EF73FA0099E8ED /* Supporting Files */,
+				F1D0B56A18EF75F80099E8ED /* CKTest.h */,
+				F1D0B56B18EF75F80099E8ED /* CKTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D0B54618EF73FA0099E8ED /* CKAppDelegate.m in Sources */,
+				F1D0B56C18EF75F80099E8ED /* CKTest.m in Sources */,
 				F1D0B54218EF73FA0099E8ED /* main.m in Sources */,
 				F1D0B54C18EF73FA0099E8ED /* CKViewController.m in Sources */,
 			);
